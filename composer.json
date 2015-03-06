@@ -1,0 +1,21 @@
+{
+  "name": "damiandennis/yii2-ko-requirejs",
+  "description": "A library for using AMD with KO.",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Damian Dennis",
+      "email": "damiandennis@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "npm-asset/requirejs": "2.1.16",
+    "damiandennis/yii2-knockoutjs": "dev-develop"
+  },
+  "autoload": {
+    "psr-4": {
+      "damiandennis\\requirejs\\": ""
+    }
+  }
+}
